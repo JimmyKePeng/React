@@ -1,4 +1,4 @@
-import MenuItem from "./menuItem";
+import MenuItem from "./MenuItem";
 function MenuList({ menuList = [] }) {
   return (
     <ul className="ml-4 p-1">

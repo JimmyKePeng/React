@@ -1,4 +1,4 @@
-import MenuList from "./menuList";
+import MenuList from "./MenuList";
 import { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa6";
 import "./style.css";

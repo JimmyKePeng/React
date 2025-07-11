@@ -23,14 +23,14 @@ function Projects() {
         <h1>Project 14: Tic Tac Toe</h1>
         <TicTacToe />
       </div>
-      {/* <div>
+      <div>
         <h1>Project 13: Search and Auto complete</h1>
         <SearchAutoComp />
-      </div> */}
-      {/* <div>
+      </div>
+      <div>
         <h1>Project 12: Github profile finder</h1>
         <GithubProfileFinder />
-      </div> */}
+      </div>
       <div>
         <h1>Project 11: open pop up window</h1>
         <ModalPopUp />
@@ -47,34 +47,34 @@ function Projects() {
         <h1>Project 3: Star rating</h1>
         <StarRating numStars={10} />
       </div>
-      {/* <div style={{ backgroundColor: bgColor }}>
+      <div style={{ backgroundColor: bgColor }}>
         <h1>Project 4: Images slider</h1>
         <ImageSlider />
-      </div> */}
-      {/* <div>
+      </div>
+      <div>
         <h1>Project 5: Load more data</h1>
         <LoadMoreData />
-      </div> */}
+      </div>
       <div>
         <h1>Project 6: Treeview Navbar</h1>
         <Treeview menuList={menuList} />
       </div>
-      {/* <div>
+      <div>
         <h1>Project 7: QR code generator</h1>
         <QRCodeGenerator />
-      </div> */}
+      </div>
       <div>
         <h1>Project 8: Light Dark Mode</h1>
         <LightDarkMode />
       </div>
-      {/* <div>
+      <div>
         <h1>Project 9: Scroll Indicatior</h1>
         <ScrollIndicator URL="https://dummyjson.com/products?limit=100&select=title" />
-      </div> */}
-      {/* <div>
+      </div>
+      <div>
         <h1>Project 10: Custom Tabs</h1>
         <CustomTabs URL="https://dummyjson.com/todos?limit=10" />
-      </div> */}
+      </div>
     </div>
   );
 }

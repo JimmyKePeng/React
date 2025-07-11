@@ -1,4 +1,4 @@
-import MenuList from "./menuList";
+import MenuList from "./MenuList";
 function Treeview({ menuList = [] }) {
   return (
     <div className="bg-amber-200 min-h-10 w-[100%]">
