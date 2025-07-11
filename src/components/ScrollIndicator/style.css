@@ -1,0 +1,36 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.top-container {
+  background-color: green;
+  width: 100%;
+  height: 5rem;
+  position: sticky;
+  top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.indicator-bar {
+  background-color: greenyellow;
+  width: 100%;
+  position: sticky;
+  height: 1rem;
+  bottom: 0%;
+}
+.indicator-bar-color {
+  background-color: purple;
+  height: 100%;
+}
+.items-list {
+  margin-bottom: 10px;
+}

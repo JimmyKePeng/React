@@ -1,0 +1,105 @@
+[theme-mode="light"] {
+  --background: #fff;
+  --text-color: #000;
+  --btn-background: #000;
+  --btn-text: #fff;
+}
+[theme-mode="dark"] {
+  --background: #000;
+  --text-color: #fff;
+  --btn-background: #fff;
+  --btn-text: #000;
+}
+.light-dark-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--background);
+  height: 100px;
+  width: 100%;
+  margin: 50px;
+  box-shadow: 2px 4px 10px rgb(170, 32, 32);
+}
+.container p {
+  margin: 10px;
+  color: var(--text-color);
+}
+.container button {
+  padding: 0px 10px 0px 10px;
+  border-radius: 10%;
+  background-color: var(--btn-background);
+  color: var(--btn-text);
+}
+
+.container button:hover {
+  background-color: aqua;
+}
+
+.fade-box {
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.bounce-box {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
+
+.change-background-color {
+  animation: change-background;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes change-background {
+  /* from {
+    background-color: rgb(0, 136, 255);
+  }
+  to {
+    background-color: palevioletred;
+  } */
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  100% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+}

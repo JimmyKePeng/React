@@ -1,0 +1,17 @@
+const quizData = [
+  {
+    id: 1,
+    question: "What is the capital of France?",
+    answers: ["Paris", "Madrid", "Berlin", "Rome"]
+  },
+  {
+    id: 2,
+    question: "Which planet is known as the Red Planet?",
+    answers: ["Mars", "Venus", "Jupiter", "Saturn"]
+  },
+  {
+    id: 3,
+    question: "Who wrote 'To Kill a Mockingbird'?",
+    answers: ["Harper Lee", "Mark Twain", "F. Scott Fitzgerald", "Ernest Hemingway"]
+  }
+];

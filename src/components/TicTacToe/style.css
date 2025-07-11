@@ -1,0 +1,21 @@
+.TTT-container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-top: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+}
+
+.item {
+  font-weight: bold;
+  border-color: rgb(150, 69, 69);
+  border-radius: 0%;
+}
