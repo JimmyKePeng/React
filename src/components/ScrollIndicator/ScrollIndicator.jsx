@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./style.css";
-function ScrollIndicator({ URL }) {
+function ScrollIndicator({
+  URL = "https://dummyjson.com/products?limit=100&select=title",
+}) {
   const [items, setItems] = useState(null);
   const [scrollPercent, setScrollPercent] = useState(0);
   const [loading, setLoading] = useState(false);

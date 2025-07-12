@@ -10,27 +10,25 @@ import Logout from "./pages/Logout";
 import Projects from "./pages/Projects";
 import Secret from "./pages/Secret";
 import { AuthProvider } from "./contexts/AuthContext";
-import { BackgroundColorProvider } from "./contexts/BackgroundColor";
+
 function App() {
   return (
     <AuthProvider>
-      <BackgroundColorProvider>
-        <Navbar />
-        <main>
-          <Routes>
-            <Route>
-              <Route path="/" element={<Home />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/notes" element={<Notes />} />
-              <Route path="/secret" element={<Secret />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/logout" element={<Logout />} />
-            </Route>
-          </Routes>
-        </main>
-      </BackgroundColorProvider>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/notes" element={<Notes />} />
+            <Route path="/secret" element={<Secret />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/logout" element={<Logout />} />
+          </Route>
+        </Routes>
+      </main>
     </AuthProvider>
   );
 }

@@ -1,0 +1,16 @@
+export const whatToShowData = {
+  Accordion: true,
+  CustomTabs: true,
+  GithubProfileFinder: true,
+  LightDarkMode: true,
+  LoadMoreData: true,
+  ModalPopUp: true,
+  ScrollIndicator: true,
+  TicTacToe: true,
+  Treeview: true,
+  ImageSlider: true,
+  QRCodeGenerator: true,
+  RandomColor: true,
+  SearchAutoComp: true,
+  StarRating: true,
+};

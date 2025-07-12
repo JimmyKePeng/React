@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Tab from "./Tab";
 import "./style.css";
-function CustomTabs({ URL }) {
+function CustomTabs({ URL = "https://dummyjson.com/todos?limit=10" }) {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState("");

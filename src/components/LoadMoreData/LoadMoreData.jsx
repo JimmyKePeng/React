@@ -18,7 +18,7 @@ function LoadMoreData() {
       const result = await response.json();
       setProducts((prev) => [...prev, ...result.products]);
       setLoading(false);
-      console.log(result);
+      // console.log(result);
     } catch (err) {
       setErr(err.message);
       console.log(err);
